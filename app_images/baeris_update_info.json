@@ -11,17 +11,24 @@
       "updates": [
          {
             "baeris_app_version": "19.0.0",
+            "requires_telit_fw_version": "37.00.227",
+            "update_file_name": "ba-mod-iot-450_me310g1_m2mapz_19.0.0_fw_37_00_xx7.bin",
+            "release_date": "29.10.2025",
+            "sha256_checksum": "23C0C031237C273A4EEC1A037A7E1A7BC5E94CEDB056A42DC28B16E1EA0AC60D"
+         },
+         {
+            "baeris_app_version": "19.0.0",
             "requires_telit_fw_version": "37.00.226",
             "update_file_name": "ba-mod-iot-450_me310g1_m2mapz_19.0.0_fw_37_00_xx6.bin",
-            "release_date": "17.10.2025",
-            "sha256_checksum": "ABC1C8873F99811AF6C36D0771C47E7C9AFBF6B2F44E4A204324E1D8EC73773C"
+            "release_date": "29.10.2025",
+            "sha256_checksum": "080A6ECEF93B3C51BCB1B41109037390902A134E7E8D2950830BC7504FCEE920"
          },
          {
             "baeris_app_version": "19.0.0",
             "requires_telit_fw_version": "37.00.216",
             "update_file_name": "ba-mod-iot-450_me310g1_m2mapz_19.0.0_fw_37_00_xx6.bin",
-            "release_date": "17.10.2025",
-            "sha256_checksum": "ABC1C8873F99811AF6C36D0771C47E7C9AFBF6B2F44E4A204324E1D8EC73773C"
+            "release_date": "29.10.2025",
+            "sha256_checksum": "080A6ECEF93B3C51BCB1B41109037390902A134E7E8D2950830BC7504FCEE920"
          },
          {
             "baeris_app_version": "18.2.0",
@@ -64,17 +71,24 @@
       "updates": [
         {
           "baeris_app_version": "19.0.0",
+          "requires_telit_fw_version": "37.00.617",
+          "update_file_name": "ba-mod-iot-450_me310g1_m2mapz_19.0.0_fw_37_00_xx7.bin",
+          "release_date": "17.10.2025",
+          "sha256_checksum": "23C0C031237C273A4EEC1A037A7E1A7BC5E94CEDB056A42DC28B16E1EA0AC60D"
+        },
+        {
+          "baeris_app_version": "19.0.0",
           "requires_telit_fw_version": "37.00.616",
           "update_file_name": "ba-mod-iot-450_me310g1_m2mapz_19.0.0_fw_37_00_xx6.bin",
           "release_date": "17.10.2025",
-          "sha256_checksum": ""
+          "sha256_checksum": "080A6ECEF93B3C51BCB1B41109037390902A134E7E8D2950830BC7504FCEE920"
         },
         {
           "baeris_app_version": "18.2.0",
           "requires_telit_fw_version": "37.00.616",
           "update_file_name": "ba-mod-iot-450_me310g1_m2mapz_18.2.0_fw_37_00_xx6.bin",
           "release_date": "23.05.2025",
-          "sha256_checksum": "ABC1C8873F99811AF6C36D0771C47E7C9AFBF6B2F44E4A204324E1D8EC73773C"
+          "sha256_checksum": "B553184A211E803D86C25C9DCE2A9373BA6A897F5DFD8AE3F2C491390F161DA8"
         },
         {
           "baeris_app_version": "18.1.0",
@@ -94,6 +108,13 @@
         "ini_version": 2
       },
       "updates": [
+        {
+          "baeris_app_version": "19.0.0",
+          "requires_telit_fw_version": "25.30.226",
+          "update_file_name": "ba-mod-lte_le910c1-eux_m2mapz_18.1.0_fw_25_30_xx6.bin.bin",
+          "release_date": "29.10.2025",
+          "sha256_checksum": "1C481C0F9220BD270D7D3FBFD6CFB996FA1880D2116B00920DA52FB2E0A6813D"
+        },
         {
           "baeris_app_version": "18.1.0",
           "requires_telit_fw_version": "25.30.226",
