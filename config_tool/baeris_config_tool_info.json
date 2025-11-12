@@ -3,10 +3,10 @@
   "versions": [
 	 {
       "version": "3.0",
-      "releaseDate": "2024-11-01",
+      "releaseDate": "2025-11-13",
       "notes": "Erweiterte Konfiguration (NTP Server, Keep Alive), Fixed IP Verbindung (ohne IPT-Bridge) fuer Test und Update geht jetzt, Update per Baeris GitHub-Server jetzt moeglich",
-      "downloadUrl": "https://github.com/BAERIS/ba_mod_fw_sw_public_download/raw/refs/heads/main/config_tool/ba_config_tool_3.0_20251030.zip",
-      "sha256_checksum": ""
+      "downloadUrl": "https://github.com/BAERIS/ba_mod_fw_sw_public_download/raw/refs/heads/main/config_tool/ba_config_tool_3.0_20251113.zip",
+      "sha256_checksum": "09B07FDB2ACBBD5DE73524701A75EC5D40AD34C6679C75A3EDFA1BEE00BEDD43"
     },
 	 {
       "version": "2.0",
