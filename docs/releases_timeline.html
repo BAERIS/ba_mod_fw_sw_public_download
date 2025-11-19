@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Release Timeline – Kurzübersicht</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2em; }
+    h1, h2 { color: #2c3e50; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 2em; }
+    th, td { border: 1px solid #ccc; padding: 0.5em; vertical-align: top; }
+    th { background-color: #f2f2f2; }
+    ul { margin: 0; padding-left: 1.2em; }
+  </style>
+</head>
+<body>
+
+<h1>Release Timeline für Baeris Modem Modelle – Kurzübersicht</h1>
+
+<h2>Alle Modelle</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>SW Release Datum</th>
+      <th>Fertigungsfreigabe</th>
+      <th>Anmerkungen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>v19.0.0</td>
+      <td>20.11.2025</td>
+      <td>21.11.2025</td>
+      <td>
+        <ul>
+          <li>Major Release mit erweiterten Modem Status, NTP Server und Keep Alive Support.</li>
+          <li>Sporadische UART Probleme bei der Baudratenumschaltung wurden eliminiert.</li>
+          <li>Internes Errorlogging zur Fehleranalyse hinzugefügt. 450 MHz Modus wird jetzt intern gesetzt.</li>
+          <li>Systemstabilität erhöht (sporadisch aufgetretene Problem mit Semaphoren).</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>v18.1.0</td>
+      <td>12.02.2025</td>
+      <td>14.02.2025</td>
+      <td>HOTFIX – TCP Socket Problem / Nichterreichbarkeit behoben</td>
+    </tr>
+    <tr>
+      <td>v18.0.0</td>
+      <td>12.02.2025</td>
+      <td>14.02.2025</td>
+      <td>
+        <ul>
+          <li>ME310G1 Modelle: Netzwerkregistrierungsproblem bei NB-IoT gefixt.</li>
+          <li>Probleme bei nicht vorhandener PLMN behoben.</li>
+          <li>Fehlersignalisierungen und Testausgaben werden jetzt dedizierter ausgeführt. Für die neuen Fehlersignalisierungen und entsprechenden Gegenmaßnahmen wurde ein Dokument erstellt.</li>
+          <li>BUGFIX: Wenn das Debuglogging aktiviert war, konnte aufgrund eines internen Problems kein Reboot mehr angestoßen werden. In diesem Fall musste ein Hardware-Neustart erfolgen, da der Watchdog noch weiter getriggert wurde. Da dies kein normaler Anwendungsfall ist, kann das Problem als unkritisch betrachtet werden.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>ME310G1 Modelle</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>SW Release Datum</th>
+      <th>Fertigungsfreigabe</th>
+      <th>Anmerkungen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>v18.2.0</td>
+      <td>23.05.2025</td>
+      <td>23.05.2025</td>
+      <td>HOTFIX – Registrierung schlägt fehl in Verbindung mit Roaming SIM Karten und NB-IoT.</td>
+    </tr>
+    <tr>
+      <td>v18.0.0</td>
+      <td>14.09.2024</td>
+      <td>15.10.2024</td>
+      <td>
+        Initiales Release für die neuen ME310G1 Modelle<br>
+        <strong>BA MOD NB IOT</strong><br>
+        <strong>BA MOD 450</strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>LE910C1-EUX</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>SW Release Datum</th>
+      <th>Fertigungsfreigabe</th>
+      <th>Anmerkungen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>v16.1.0</td>
+      <td>06.08.2024</td>
+      <td>06.08.2024</td>
+      <td>Aufgrund eines Kundenproblems mit einer sehr langen APN-URL-Kennung wurden die zulässigen Zeichenlängen für APN, Usernames, Passwörter und URLs auf 128 Zeichen erweitert.</td>
+    </tr>
+    <tr>
+      <td>v16.1.0</td>
+      <td>06.08.2024</td>
+      <td>06.08.2024</td>
+      <td>Aufgrund eines Kundenproblems mit einer sehr langen APN-URL-Kennung wurden die zulässigen Zeichenlängen für APN, Usernames, Passwörter und URLs auf 128 Zeichen erweitert.</td>
+    </tr>
+    <tr>
+      <td>v15.1.0</td>
+      <td>05.12.2023</td>
+      <td>05.12.2023</td>
+      <td>SPI IDLE Bus Problem gefixt (neue Telit FW und geänderte SPI Init)</td>
+    </tr>
+    <tr>
+      <td>v14.1.0</td>
+      <td>13.04.2023</td>
+      <td>30.05.2023</td>
+      <td>Plausibilitätsprüfung und Autokorrektur für das Ini-File hinzugefügt (param.ini kann falsche Daten am Dateianfang enthalten)</td>
+    </tr>
+    <tr>
+      <td>v13.1.0</td>
+      <td>12.12.2022</td>
+      <td>15.12.2022</td>
+      <td>Wurde am 15.12.22 von den Stadtwerken Düsseldorf freigegeben (Robotron IPT Bridge) und für die Fertigung aktualisiert bereitgestellt</td>
+    </tr>
+    <tr>
+      <td>v12.12.0</td>
+      <td>27.10.2022</td>
+      <td>15.12.2022</td>
+      <td>Versionnummer wurde falsch im Code hinterlegt, daher wird die Version 12.1.0 angezeigt</td>
+    </tr>
+    <tr>
+      <td>v12.11.2</td>
+      <td>18.10.2022</td>
+      <td>15.12.2022</td>
+      <td>Baudrate für Testmode wieder auf 9600 geändert</td>
+    </tr>
+    <tr>
+      <td>v12.11.1</td>
+      <td>17.10.2022</td>
+      <td>17.10.2022</td>
+      <td>Erstes Release mit optimierten UART FIFO (Telit FW)</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
