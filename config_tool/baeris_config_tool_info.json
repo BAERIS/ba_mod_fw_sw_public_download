@@ -1,13 +1,20 @@
 {
   "product": "baeris_config_tool_1g",
   "versions": [
+    {
+      "version": "3.1",
+      "releaseDate": "2025-12-01",
+      "notes": "Erstellen von Konfigurationsdateien geht jetzt ohne Kenntnis der Baeris App Version. Somit kann immer eine Konfigurationsdatei ohne Modemverbindung erstellt werden.",
+      "downloadUrl": "https://github.com/BAERIS/ba_mod_fw_sw_public_download/raw/refs/heads/main/config_tool/ba_config_tool_3.1_20251201.zip",
+      "sha256_checksum": "B6B876517A8E21FDDF821396A60B0192EF2A6F4A49B1DF39A5DB1CAC2C06868B"
+   },
 	 {
       "version": "3.0",
       "releaseDate": "2025-11-24",
       "notes": "Erweiterte Konfiguration (NTP Server, Keep Alive), Fixed IP Verbindung (ohne IPT-Bridge) fuer Test und Update geht jetzt, Update per Baeris GitHub-Server jetzt moeglich",
       "downloadUrl": "https://github.com/BAERIS/ba_mod_fw_sw_public_download/raw/refs/heads/main/config_tool/ba_config_tool_3.0_20251124.zip",
       "sha256_checksum": "D463B9114297B4B5BD64223294E4E1729868572363939BA4C3F4AF2419FD3AA1"
-    },
+   },
 	 {
       "version": "2.0",
       "releaseDate": "2025-02-01",
