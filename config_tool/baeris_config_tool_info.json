@@ -2,6 +2,13 @@
   "product": "baeris_config_tool_1g",
   "versions": [
     {
+      "version": "3.2",
+      "releaseDate": "2026-07-21",
+      "notes": "NB-IoT-Konfiguration gefixt (Reihenfolgeproblem in der Konfigurationsdatei), robusterer INI-Parser und keine Startfehlermeldung mehr ohne COM-Port.",
+      "downloadUrl": "https://github.com/BAERIS/ba_mod_fw_sw_public_download/raw/refs/heads/main/config_tool/ba_config_tool_3.2_20260721.zip",
+      "sha256_checksum": "46E0DD99852E91597ADA818C3B07140846288738E5728B276EE9147A6F270730"
+   },
+    {
       "version": "3.1",
       "releaseDate": "2025-12-01",
       "notes": "Erstellen von Konfigurationsdateien geht jetzt ohne Kenntnis der Baeris App Version. Somit kann immer eine Konfigurationsdatei ohne Modemverbindung erstellt werden.",
